@@ -34,12 +34,7 @@ body.background-image{
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   margin-bottom: 0.625rem;
   color: black;
   font-weight: 700;
@@ -59,4 +54,8 @@ footer{
     height: 60px;
     margin-left: 8%;
     
+}
+
+main, img{
+    border: 1px solid var(--bright-turquoise);
 }
