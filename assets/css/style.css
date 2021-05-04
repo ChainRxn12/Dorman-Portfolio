@@ -9,12 +9,32 @@
     --purp: #362db3;
 }
 
+header.geobanner{
+    background:url('/Users/chainrxn12/Desktop/Dorman-Portfolio/assets/images/geo banner.jpeg');
+    border: 2px solid var(--bright-turquoise);
+    margin: 2%
+}
+
+
 body{
     background-color: var(--outer-space);
     color: var(--gin);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 1.75rem;
-    line-height: 1.5;
+    line-height: 1.5; 
+    opacity: .8;
+}
+
+body.background-image{
+    background-image: url('/Users/chainrxn12/Desktop/Dorman-Portfolio/assets/images/backdrop1.jpeg');
+    border: 2px solid var(--bright-turquoise);
+    margin: 2%;
+    background-size: 100%;
+   
+}
+
+nav {
+    
 }
 
 h1,
