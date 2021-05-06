@@ -20,39 +20,23 @@ header.geobanner, p {
     text-align: center;
     font: helvetica;
     font-size: 40px;
-    color: violet;
+    color: var(--gin);
     font-weight: 900;
 
 }
 
-p.green{
-    color:chartreuse;
+p.gin{
+    color: var(--gin);
     font-size: 20px;
     text-align: left;
     padding: 1%;
-    text-shadow: 2px 2px 0px black;
+  
 
 }
 
-p.cyan{
-    color:cyan;
-    font-size: 20px;
-    text-align: left;
-    padding: 1%;
-    text-shadow: 2px 2px 0px black;
-    
-}
-
-p.black{
-    color: black;
-    font-size: 20px;
-    text-align: left;
-    padding: 1%;
-    text-shadow: 2px 2px 0px whitesmoke;
-}
 
 body{
-    background-color: var(--outer-space);
+    background-color: black;
     color: var(--gin);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     font-size: 1.75rem;
@@ -61,16 +45,8 @@ body{
     opacity: .9;
 }
 
-body.background-image{
-    background-image: url('/Users/chainrxn12/Desktop/Dorman-Portfolio/assets/images/backdrop1.jpeg');
-    border: 3px solid var(--bright-turquoise);
-    margin: 2%;
-    background-size: 98%;
-   
-}
-
 h1 {
-  color: violet;
+  color: var(--gin);
   font-weight: 900;
   text-shadow: 2px 2px 0px black;
   text-align: center;
@@ -78,6 +54,11 @@ h1 {
 }
 
 main, img{
+    border: 3px solid var(--bright-turquoise);
+    margin: 5%;
+}
+
+section {
     border: 3px solid var(--bright-turquoise);
     margin: 5%;
 }
