@@ -138,7 +138,7 @@ section, img{
     margin: 5%;
 }
 
-
+/*flex items for responsiveness*/
 .flexbox-container{
     display: flex;
     flex-wrap: wrap;
@@ -205,7 +205,7 @@ footer{
 @media screen and (max-width: 768px) {
     main,
     nav {
-      flex-direction: column;
+      flex-direction: row;
     }
   }
 
