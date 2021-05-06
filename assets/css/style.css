@@ -144,6 +144,7 @@ section, img{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    flex-shrink: 1;
     
 }
 
@@ -155,9 +156,10 @@ section, img{
 }
 
 .flexbox-item-1{
-    min-height: 400px;
+    min-height: 200px;
     flex-grow: 3;
     align-self: center;
+    
 }
 
 .flexbox-item-2{
@@ -171,13 +173,14 @@ section, img{
     min-height: 100px;
     flex-grow: 1;
     flex-basis: 0;
-    align-self: left;
+    align-self: flex-end;
 }
 
 .flexbox-item-4{
     min-height: 100px;
     flex-grow: 0;
     flex-basis: 0;
+    align-self: flex-end;
 }
 
 .flexbox-item header{
