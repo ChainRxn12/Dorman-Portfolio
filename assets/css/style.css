@@ -10,6 +10,8 @@
 }
 
 body{
+    border: 3px solid var(--bright-turquoise);
+    margin: 1%;
     background-color: black;
     color: var(--gin);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -39,7 +41,6 @@ nav {
     float: center;
     margin-left: 12%;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -112,8 +113,13 @@ h1 {
   color: var(--gin);
   font-weight: 900;
   text-shadow: 2px 2px 0px black;
-  text-align: center;
+  text-align: left;
   margin: 1px;
+}
+
+main{
+    border: 3px solid var(--bright-turquoise);
+    margin: 5%;
 }
 
 main, img{
@@ -132,47 +138,65 @@ section, img{
     margin: 5%;
 }
 
-.apps{
-    flex: 4;
-    padding: 50px;
+
+.flexbox-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-.cards{
-    border-style: solid;
-    border-color: var(--bright-turquoise);
-    border-width: 1px;
-    border-radius: 50px;
-    padding: 10px;
-    flex: 0 0 300px;
-    transform: rotate(10deg);
-    box-shadow: 10px 10px 5px var(--gin);
+.flexbox-item{
+    width: 400px;
+    margin: 10px;
+    border: 3px solid var(--bright-turquoise);
+    background-color: black;
 }
 
-.card header{
+.flexbox-item-1{
+    min-height: 400px;
+    flex-grow: 3;
+    align-self: center;
+}
+
+.flexbox-item-2{
+    min-height: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: right;
+}
+
+.flexbox-item-3{
+    min-height: 100px;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-self: left;
+}
+
+.flexbox-item-4{
+    min-height: 100px;
+    flex-grow: 0;
+    flex-basis: 0;
+}
+
+.flexbox-item header{
     border-radius: 50px 50px 0px 0px;
     padding: 20px;
 }
 
-.card p{
+.flexbox-item p{
     text-align: center;
+    font-size: 16px;
 }
 
-.card img{
-    width: 100%;
-}
+
 
 footer{
     bottom: 0;
     width: 100%;
-    height: 60px;
-    margin-left: 1%;
-    margin-right:1%;
-    padding: 2%;
-    
+    align-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
