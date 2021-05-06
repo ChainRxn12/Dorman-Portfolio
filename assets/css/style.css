@@ -34,6 +34,23 @@ p.green{
 
 }
 
+p.cyan{
+    color:cyan;
+    font-size: 20px;
+    text-align: left;
+    padding: 1%;
+    text-shadow: 2px 2px 0px black;
+    
+}
+
+p.black{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 1%;
+    text-shadow: 2px 2px 0px whitesmoke;
+}
+
 body{
     background-color: var(--outer-space);
     color: var(--gin);
