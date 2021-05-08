@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Project Overview](#Project-overview)
-* [Screenshot](#Screenshot)
+* [Screenshots](#Screenshot)
 * [Deployed URL](#Deployed-url)
 
 ### Project Overview
