@@ -84,7 +84,7 @@ nav {
     }
 
 .geobanner{
-    background:url('/Users/chainrxn12/Desktop/Dorman-Portfolio/assets/images/geo banner.jpeg');
+    background:url('/assets/images/geo\ banner.jpeg');
     border: 3px solid var(--bright-turquoise);
     margin: 2%;
     padding: 2%;
