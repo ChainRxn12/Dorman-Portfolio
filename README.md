@@ -21,4 +21,4 @@ The employer will be presented with a deployed application with a user interface
 
 ##### Deployed URL
 
-[Dorman-Portfolio] https://chainrxn12.github.io/Dorman-Portfolio/
+[Dorman-Portfolio](https://chainrxn12.github.io/Dorman-Portfolio/ "Dorman-Portfolio Home")
