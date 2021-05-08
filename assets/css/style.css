@@ -13,6 +13,29 @@
     --purp: #362db3;
 }
 
+.headshotImg {
+    width: 500px;
+    height: 500px;
+}/*Image changes to size laptop*/
+@media screen and (max-width: 1035px){
+    .headshotImg{
+        width: 300px;
+        height: 300px;
+    }
+}/*Image changes to size tablet*/
+@media screen and (max-width: 780px){
+    .headshotImg{
+        width: 225px;
+        height: 225px;
+    }
+}/*Image changes to size iphone*/
+@media screen and (max-width: 480px){
+    .headshotImg{
+        width: 175px;
+        height: 175px;
+    }
+}
+
 body{
     border: 3px solid var(--bright-turquoise);
     margin: 1%;
@@ -28,10 +51,17 @@ body{
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-} 
+} /*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    body{
+        border:3px solid dodgerblue;
+        color: darkred;
+    }
+}
 @media screen and (max-width: 480px) {
     body{
         font-size: 30px;
+        color: darkcyan;
     }
 }
 
@@ -44,7 +74,13 @@ nav {
     overflow: hidden;
     background-color: #333;
     border: 3px solid turquoise;
+    }/*border changes color for tablet*/
+    @media screen and (max-width: 780px){
+        .topnav{
+            border:3px solid dodgerblue;
+        }
     }
+
 
 .topnav a {
     float: center;
@@ -66,6 +102,11 @@ nav {
     overflow: hidden;
     background-color: #333;
     border: 3px solid turquoise;
+    }/*border changes color for tablet*/
+    @media screen and (max-width: 780px){
+        .bottomnav{
+            border:3px solid dodgerblue;
+        }
     }
     
 .bottomnav a {
@@ -84,10 +125,16 @@ nav {
     }
 
 .geobanner{
-    background:url('/assets/images/geo\ banner.jpeg');
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/world-map-18-black-background-sharon-cummings.jpg");
+    background-color: black;
     border: 3px solid var(--bright-turquoise);
     margin: 2%;
     padding: 2%;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    .geobanner{
+        border:3px solid dodgerblue;
+    }
 }
 
 header{
@@ -190,22 +237,42 @@ h1 {
 main{
     border: 3px solid var(--bright-turquoise);
     margin: 5%;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    main{
+        border:3px solid dodgerblue;
+    }
 }
 
 main, img{
     border: 3px solid var(--bright-turquoise);
     margin: 5%;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    main, img{
+        border:3px solid dodgerblue;
+    }
 }
 
 section {
     border: 3px solid var(--bright-turquoise);
     margin: 5%;
     text-align: center;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    section{
+        border:3px solid dodgerblue;
+    }
 }
 
 section, img{
     border: 3px solid var(--bright-turquoise);
     margin: 5%;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    section, img{
+        border:3px solid dodgerblue;
+    }
 }
 
 /*flex items for responsiveness*/
@@ -223,6 +290,11 @@ section, img{
     margin: 10px;
     border: 3px solid var(--bright-turquoise);
     background-color: black;
+}/*border changes color for tablet*/
+@media screen and (max-width: 780px){
+    .flexbox-item{
+        border:3px solid dodgerblue;
+    }
 }
 
 .flexbox-item-1{
