@@ -34,8 +34,6 @@ body{
         font-size: 30px;
     }
 }
-    
-}
 
 nav {
     display: flex;
@@ -110,10 +108,19 @@ aside{
     font-size: 50px;
     color: var(--gin);
     font-weight: 900;
-} 
+} /*changes banner font-size on tablet*/
+@media screen and (max-width: 780px){
+    .geobanner, p{
+        font-size: 30px;
+        color:darkred;
+    }
+}
+
+/*changes banner font-size on iphone*/
 @media screen and (max-width: 480px) {
     .geobanner, p {
       font-size: 20px;
+      color: darkcyan;
     }
   }
 
@@ -122,20 +129,45 @@ aside{
     font-size: 20px;
     text-align: left;
     padding: 1%;
-}
-@media screen and (max-width: 480px) {
-    .gin, p {
-      font-size: 12px;
-      color: darkcyan;
-    }
-  }
+} 
+/*changes text on tablet*/
  @media screen and (max-width: 780px){
      .gin, p{
          font-size: 16px;
          color: darkred;
      }
      
- }     
+ }  
+ /*changes text on iphone*/
+ @media screen and (max-width: 480px) {
+    .gin, p {
+      font-size: 12px;
+      color: darkcyan;
+    }
+  }   
+
+.techImg {
+    width: 300px;
+    height: 300px;
+    transition: width .5s, height .5s;
+}
+
+.techImg:hover{
+    width: 500px;
+    height: 500px;
+}
+
+.techImg2 {
+    width: 200px;
+    height: 200px;
+    transition: width .5s, height .5s;
+
+}
+
+.techImg2:hover{
+    width: 400px;
+    height: 400px;
+}
 
 h1 {
   color: var(--gin);
@@ -143,6 +175,16 @@ h1 {
   text-shadow: 2px 2px 0px black;
   text-align: left;
   margin: 1px;
+} /*Change font-color at tablet size*/
+@media screen and (max-width: 780px){
+    h1 {
+        color: darkred; 
+    }    
+} /* Change font-color at iphone size*/
+@media screen and (max-width: 480px){
+    h1 {
+        color: darkcyan;
+    }
 }
 
 main{
@@ -205,7 +247,7 @@ section, img{
 
 .flexbox-item-4{
     min-height: 100px;
-    flex-grow: 0;
+    flex-grow: 1;
     flex-basis: 0;
     align-self: flex-end;
 }
@@ -228,7 +270,3 @@ footer{
     align-content: center;
     align-items: center;
 }
-
-
-
- 
